@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-function BigCard({ img, title }) {
+function BigCard({ img, title }: { img: "String"; title: "String" }) {
   return (
     <div className="cursor-pointer hover:scale-105 transform transition duration-300">
       <div className="relative h-80 w-80">
